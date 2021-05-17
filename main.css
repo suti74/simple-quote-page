@@ -1,4 +1,19 @@
-header {
+* {
+    box-sizing: border-box;
+}
+    header {
     background: url(assets/freedom.jpg) no-repeat 70% center;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    
+}
+.content {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+    text-align: center;
+    position: absolute;
+    top: 5rem;
 }
